@@ -6,8 +6,8 @@ pip install -r requirements.txt
 In this section, we will use "src/image_composition.py" to randomly pick foregrounds and automatically super-impose them on backgrounds. You will need a number of foreground cutouts with transparent backgrounds. For example, you might have a picture of an eagle with a completely transparent background. Due to the need for transparency, these images should be .png format (.jpg doesn't have transparency). I cut out my foregrounds with [GIMP](https://www.gimp.org/), which is free.
 
 - Inside that "dataset" directory, create a folder called "input"
-- Inside "input", create two folders called "foregrounds" and "backgrounds"
-- Inside "foregrounds", create a folder for each super category (e.g. "bird", "lizard")
+- Inside "input", create two folders called "_foregrounds" and "backgrounds"
+- Inside "_foregrounds", create a folder for each super category (e.g. "bird", "lizard")
 - Inside each foreground super category folder, create a folder for each category (e.g. "eagle", "owl")
 - Inside each category folder, add all foreground photos you intend to use for the respective category (e.g. all of you eagle foreground cutouts)
 - Inside "backgrounds", add all background photos you intend to use
