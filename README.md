@@ -19,7 +19,7 @@ python src/image_composition.py --input_dir dataset/input --output_dir dataset/o
 # Check Output Synthetic Images
 - The output sythetic images are in "dataset/output/images"
 - The output labels in .xml format for syntheic images are in "dataset/output/xml"
-- You can convert .xml format to .csv format using:
+- You can convert .xml format to .csv format using
 ```
 python src/xml_to_csv.py
 ```
