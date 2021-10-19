@@ -1,0 +1,8 @@
+Pillow
+numpy
+scikit-image
+scipy
+tqdm
+Shapely
+pascal-voc-writer
+pandas
