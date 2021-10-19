@@ -16,6 +16,7 @@ Run "image_composition.py" to create your synthesis images
 ```
 python src/image_composition.py --input_dir dataset/input --output_dir dataset/output --count 10 --width 512 --height 512
 ```
+![sample_results](misc/sample.png)
 # Check Output Synthetic Images
 - The output sythetic images are in "dataset/output/images"
 - The output labels in .xml format for syntheic images are in "dataset/output/xml"
